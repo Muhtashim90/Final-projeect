@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">
+                Linstagram
+            </h2>
+            <div class="search-bar">
+                <ion-icon name="search"></ion-icon>
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="create">
+                <label for="create post" class="btn btn-primary">Create</label>
+                <div class="profile-pic">
+                    <img src="images/profile-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!------------MAIN------------->
+    <main>
+        <div class="container">
+            <!--------------left-------------->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-pic">
+                        <img src="images/profile-1.jpg" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>Daina Danny</h4>
+                        <p class="text-muted">
+                            @dain
+                        </p>
+                    </div>
+                </a>
+                <!---------Side Bar----------->
+                <div class="sidebr">
+                    <a class="menu-item active">
+                        <span><ion-icon name="home-outline"></ion-icon></span>
+                        <h3>HOME</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><ion-icon name="compass-outline"></ion-icon> </span>
+                        <h3>EXPLORE</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><ion-icon name="notifications-outline"> <small class="notification-count">9+</small> </ion-icon></span>
+                        <h3>NOTIFICATION</h3>
+                        <!---------NOTIFICATION POPUP------->
+                        <div class="notification-popup">
+                            <div>
+                                <div class="profile-pic">
+                                    <img src="images/profile-2.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-pic">
+                                    <img src="images/profile-3.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>John Dave</b> commented on your post
+                                    <small class="text-muted">1 HOURS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-pic">
+                                    <img src="images/profile-4.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Marry Lana</b> and <b>283 others</b> liked your post
+                                    <small class="text-muted">4 MINS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-pic">
+                                    <img src="images/profile-5.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Amelia</b> sent you a friend requst  
+                                    <small class="text-muted">9 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-pic">
+                                    <img src="images/profile-6.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Lily </b> sent you a friend requst  
+                                    <small class="text-muted">1 MINS AGO</small>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messages-notification">
+                        <span><ion-icon name="chatbox-outline"><small class="notification-count">6</small></ion-icon></span>
+                        <h3>MESSAGES</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><ion-icon name="color-palette-outline"></ion-icon></span>
+                        <h3>THEME</h3>
+                    </a>
+                    <a class="menu-item active">
+                        <span><ion-icon name="settings-outline"></ion-icon></span>
+                        <h3>SETTINGS</h3>
+                    </a>
+                </div>
+                <!---------end of sidebar-------->
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+            <!------------end of left ---------------->
+            <!--------------middle-------------->
+            <div class="middle">
+               <!---------STORIES------------->
+               <div class="stories">
+
+                <div class="story">
+                    <div class="profile-pic">
+                        <img src="images/profile-8.jpg" alt="">
+                    </div>
+                    <p class="name">Your Story</p>
+                </div>
+
+                <div class="story">
+                    <div class="profile-pic">
+                        <img src="images/profile-9.jpg" alt="">
+                    </div>
+                    <p class="name">Lilla James</p>
+                </div>
+
+                <div class="story">
+                    <div class="profile-pic">
+                        <img src="images/profile-10.jpg" alt="">
+                    </div>
+                    <p class="name">Winnie Hale</p>
+                </div>
+
+                <div class="story">
+                    <div class="profile-pic">
+                        <img src="images/profile-11.jpg" alt="">
+                    </div>
+                    <p class="name">Daniel Bale</p>
+                </div>
+
+                <div class="story">
+                    <div class="profile-pic">
+                        <img src="images/profile-12.jpg" alt="">
+                    </div>
+                    <p class="name">Hane Doe</p>
+                </div>
+
+                <div class="story">
+                    <div class="profile-pic">
+                        <img src="images/profile-13.jpg">
+                    </div>
+                    <p class="name">Tina White</p>
+                </div>
+            </div>
+<!-----------------End of Story---------------------->
+             <form class="create-post">
+                <div class="profile-pic">
+                    <img src="images/profile-1.jpg " alt="">
+                </div>
+                <input type="text" placeholder="What's on your mind Diana?" id="create-post">
+                <input type="submit" value="Post" class="btn btn-primary">
+             </form>
+
+             <!--------Feeds------------>
+             <div class="feeds">
+                <!--------Feeds 1------------>
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="images/profile-13.jpg">
+                            </div>
+                            <div class="info">
+                                <h3>Lana Rose</h3>
+                                <small>Dubai, 15 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="images/feed-1.jpg" alt="">
+                    </div>
+
+                    <div class="action-buttton">
+                        <div class="interaction-buttons">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><ion-icon name="bookmark-outline"></ion-icon></span>
+                        </div>
+                    </div>
+
+                    <div class="like-by">
+                        <span><img src="images/profile-10.jpg"></span>
+                        <span><img src="images/profile-16.jpg"></span>
+                        <span><img src="images/profile-11.jpg"></span>
+                        <p>Liked by <b>Winnie Hale</b> and
+                        <b>2,309 others</b></p>
+                    </div>
+                    <div class="caption">
+                        <p><b>Lana Rose</b> Lorem ipsum dolor sit amet. <span class="harsh-tag">#lifestyle</span></p>
+                    </div>
+                    <div class="text-muted comments">
+                        View all 287 comments
+                    </div>
+
+
+                </div>
+             </div>
+             <!--------------END OF FEED------------------------->
+
+               <!--------Feeds 2------------>
+               <div class="feed">
+                <div class="head">
+                    <div class="user">
+                        <div class="profile-pic">
+                            <img src="images/profile-11.jpg">
+                        </div>
+                        <div class="info">
+                            <h3>Franklin Dave</h3>
+                            <small>Los Santos, 1 DAYS AGO</small>
+                        </div>
+                    </div>
+                    <span class="edit"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></span>
+                </div>
+
+                <div class="photo">
+                    <img src="images/feed-5.jpg" alt="">
+                </div>
+
+                <div class="action-buttton">
+                    <div class="interaction-buttons">
+                        <span><ion-icon name="heart-outline"></ion-icon></span>
+                        <span><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                        <span><ion-icon name="share-social-outline"></ion-icon></span>
+                    </div>
+                    <div class="bookmark">
+                        <span><ion-icon name="bookmark-outline"></ion-icon></span>
+                    </div>
+                </div>
+
+                <div class="like-by">
+                    <span><img src="images/profile-1.jpg"></span>
+                    <span><img src="images/profile-6.jpg"></span>
+                    <span><img src="images/profile-17.jpg"></span>
+                    <p>Liked by <b>Winnie Hale</b> and
+                    <b>5,509 others</b></p>
+                </div>
+                <div class="caption">
+                    <p><b>Franklin Dave</b> Lorem ipsum dolor sit amet. <span class="harsh-tag">#Photography</span></p>
+                </div>
+                <div class="text-muted comments">
+                    View all 287 comments
+                </div>
+
+
+            </div>
+         </div>
+         <!--------------END OF FEED 2------------------------->
+
+
+
+
+
+
+
+            
+            <!--------------------END OF FEEDS -------------------------->
+            <!--------------right-------------->
+            <div class="right">
+              <div class="right">
+                <div class="messages">
+                     <div class="heading">
+                        <h4>MESSAGES</h4><ion-icon name="create-outline"></ion-icon> 
+                     </div>
+                     <div class="search-bar">
+                        <ion-icon name="search"></ion-icon>
+                        <input type="search" placeholder="Search Messages" id="messages-search">
+                     </div>
+
+                     <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6 >General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                     </div>
+
+                     <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/profile-7.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Edem Quiest</h5>
+                            <p class="text-muted">Just woke up</p>
+                        </div>
+                     </div>
+                </div>
+
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="images/profile-13.jpg">
+                            </div>
+                            <div>
+                                <h5>Hajjiaaa Bunntu</h5>
+                                <p class="muted-text">
+                                    8 mutual friends
+                                </p>
+                                <div class="action">
+                                     <button class="btn btn-primary">
+                                        Accept
+                                     </button>
+                                     <button class="btn btn-primary">
+                                        Decline
+                                     </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
